@@ -2,9 +2,9 @@
   "name": "chuumon-center",
   "version": "1.0.0",
   "description": "coordinator",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node main.js",
+    "start": "node index.js",
     "test": "test"
   },
   "keywords": [

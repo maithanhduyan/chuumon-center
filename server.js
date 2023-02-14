@@ -5,8 +5,8 @@ const app = express();
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 
-const ItemRouter = require('./routes/item-route');
-const TableRouter = require('./routes/table-route');
+const ItemRouter = require('./src/routes/item-route');
+const TableRouter = require('./src/routes/table-route');
 
 // Define the routes
 app.use(express.json());

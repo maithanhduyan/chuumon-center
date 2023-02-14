@@ -9,6 +9,12 @@ Ex:
 ~~~
 nssm install chuumon-center-v1.0 "C:\Program Files\nodejs\node.exe" "C:\Users\AnMTD\Documents\Projects\chuumon system\chuumon-center"
 nssm set chuumon-center-v1.0 AppDirectory "C:\Users\AnMTD\Documents\Projects\chuumon system\chuumon-center"
-nssm set chuumon-center-v1.0 AppParameters "main.js" 
+nssm set chuumon-center-v1.0 AppParameters "server.js" 
 nssm start chuumon-center-v1.0
+~~~
+
+### Node Dev
+~~~
+npm install -g nodemon
+nodemon server.js
 ~~~

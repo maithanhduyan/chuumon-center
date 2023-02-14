@@ -8,7 +8,7 @@ class ItemController {
     const client = await pool.connect();
     try {
       const items = await model.getAll(client);
-      res.status(200).json({items});
+      res.status(200).json({ items });
     } catch (error) {
       res.status(500).json({ error: error.message });
     } finally {
